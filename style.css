@@ -1,0 +1,23 @@
+.list-group-item {
+    background-color: #f8f9fa; /* Cor de fundo suave */
+    border: none; /* Remove as bordas */
+    padding: 15px; /* Espaçamento interno */
+    margin-bottom: 10px; /* Espaçamento entre itens */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s ease; /* Animação de transição para a cor de fundo */
+}
+
+.list-group-item:hover {
+    background-color: #e2e6ea; /* Cor de fundo ao passar o mouse */
+}
+
+.list-group-item a {
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: #343a40; /* Cor do texto dos links */
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+
+.list-group-item p {
+    margin: 0; /* Remove margens */
+    color: #6c757d; /* Cor de texto secundário */
+}
